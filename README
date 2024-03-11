@@ -1,0 +1,37 @@
+# Task Tracker
+Task Tracker is a simple web application to help you keep track of your tasks or to-do items.
+
+## Features
+- **Add Tasks:** Easily add tasks with a title and description.
+- **View Tasks:** View your added tasks in a list format with a serial number, title, and description.
+- **Delete Tasks:** Remove individual tasks from the list.
+- **Clear All:** Clear all tasks from the list at once.
+
+## Technologies Used
+- **HTML:** Used for structuring the web page.
+- **CSS (Bootstrap 4):** Provides styling and responsiveness to the user interface.
+- **JavaScript:** Adds interactivity and functionality to the application.
+- **Local Storage:** Utilized for storing task data locally in the browser.
+
+## Installation
+1. Clone the repository:git clone https://github.com/Amitkumar-Vaghela/task-tracker.git
+2. Open the project directory in your code editor.
+3. Open `index.html` in your web browser.
+
+## Usage
+1. Enter a task title and description in the respective input fields.
+2. Click the "Add to list" button to add the task to the list.
+3. View your added tasks in the list below.
+4. To delete a task, click the "Delete" button next to it.
+5. To clear all tasks, click the "Clear list" button.
+
+## Contributing
+Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or create a pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- This project is inspired by the need for a simple task tracking solution.
+- Special thanks to Bootstrap for providing CSS styling and components.
+
