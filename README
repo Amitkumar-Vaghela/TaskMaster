@@ -1,70 +1,38 @@
-<!doctype html>
-<html lang="en">
+# Task Tracker
+Task Tracker is a simple web application to help you keep track of your tasks or to-do items.
 
-<head>
-   
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+## Features
+- **Add Tasks:** Easily add tasks with a title and description.
+- **View Tasks:** View your added tasks in a list format with a serial number, title, and description.
+- **Delete Tasks:** Remove individual tasks from the list.
+- **Clear All:** Clear all tasks from the list at once.
+
+## Technologies Used
+- **HTML:** Used for structuring the web page.
+- **CSS (Bootstrap 4):** Provides styling and responsiveness to the user interface.
+- **JavaScript:** Adds interactivity and functionality to the application.
+- **Local Storage:** Utilized for storing task data locally in the browser.
+
+## Installation
+1. Clone the repository:git clone https://github.com/Amitkumar-Vaghela/task-tracker.git
+2. Open the project directory in your code editor.
+3. Open `index.html` in your web browser.
+
+## Usage
+1. Enter a task title and description in the respective input fields.
+2. Click the "Add to list" button to add the task to the list.
+3. View your added tasks in the list below.
+4. To delete a task, click the "Delete" button next to it.
+5. To clear all tasks, click the "Clear list" button.
+
+## Contributing
+Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or create a pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- This project is inspired by the need for a simple task tracking solution.
+- Special thanks to Bootstrap for providing CSS styling and components.
 
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <title>What To Do</title>
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">What To Do</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/" tabindex="-1" aria-disabled="true">Home <span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Items
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
-
-    <div class="container my-4">
-        <h2 class="text-center">What To Do</h2>
-
-        <div class="form-group">
-            <label for="title">Title</label>
-            <input type="text" class="form-control" id="title" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">Add an item to the list</small>
-        </div>
-
-        <div class="form-group">
-            <label for="description">Description</label>
-            <textarea class="form-control" id="description" rows="3"></textarea>
-        </div>
-
-        <
