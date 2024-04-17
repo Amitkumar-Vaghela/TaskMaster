@@ -1,5 +1,5 @@
 ![image]()
-# Task Tracker
+# TaskMaster
 Task Tracker is a simple web application to help you keep track of your tasks or to-do items.
 
 ## Features
@@ -15,7 +15,7 @@ Task Tracker is a simple web application to help you keep track of your tasks or
 - **Local Storage:** Utilized for storing task data locally in the browser.
 
 ## Installation
-1. Clone the repository:git clone https://github.com/Amitkumar-Vaghela/task-tracker.git
+1. Clone the repository:git clone https://github.com/Amitkumar-Vaghela/taskMaster.git
 2. Open the project directory in your code editor.
 3. Open `index.html` in your web browser.
 
